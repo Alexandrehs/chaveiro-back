@@ -1,0 +1,7 @@
+CREATE TABLE items(
+    id VARCHAR(255) PRIMARY,
+    name VARCHAR(255) NOT NULL,
+    brand VARCHAR(255) NOT NULL,
+    price VARCHAR(10) NOT NULL,
+    storage VARCHAR(3) NOT NULL
+);

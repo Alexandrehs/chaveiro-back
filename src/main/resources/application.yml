@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/chaveiro-api
+  jpa:
+    database: POSTGRESQL
+    generate-ddl: true
+
+
+flyway:
+  url: jdbc:postgresql://localhost:5432/
+  schemas: customer-api
+  user: postgres
+  password: 123
