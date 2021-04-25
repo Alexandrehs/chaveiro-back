@@ -2,14 +2,14 @@ spring:
   datasource:
     username: welfyhopdxemil
     password: ac3262d46d8952ffe55460d343c85bbd7f33ccf539760d27927875e8f8a3d4a6
-    url: jdbc:postgresql://ec2-35-174-35-242.compute-1.amazonaws.com:5432/d6fl6m25dog74r
+    url: postgres://welfyhopdxemil:ac3262d46d8952ffe55460d343c85bbd7f33ccf539760d27927875e8f8a3d4a6@ec2-35-174-35-242.compute-1.amazonaws.com:5432/d6fl6m25dog74r
   jpa:
     database: POSTGRESQL
     generate-ddl: true
 
 
 flyway:
-  url: jdbc:postgresql://ec2-54-196-111-158.compute-1.amazonaws.com:5432/
+  url: postgres://welfyhopdxemil:ac3262d46d8952ffe55460d343c85bbd7f33ccf539760d27927875e8f8a3d4a6@ec2-35-174-35-242.compute-1.amazonaws.com:5432/d6fl6m25dog74r
   schemas: d6fl6m25dog74r
   user: welfyhopdxemil
   password: ac3262d46d8952ffe55460d343c85bbd7f33ccf539760d27927875e8f8a3d4a6
