@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: onpkacraszqseu
-    password: 6dbb2b04209b92deec60c3a08568cb77ca06e800a817f10f36005c060fb943e8
-    url: jdbc:postgresql://ec2-54-196-111-158.compute-1.amazonaws.com:5432/d9dogrindm9d4a
+    username: welfyhopdxemil
+    password: ac3262d46d8952ffe55460d343c85bbd7f33ccf539760d27927875e8f8a3d4a6
+    url: jdbc:postgresql://ec2-35-174-35-242.compute-1.amazonaws.com:5432/d6fl6m25dog74r
   jpa:
     database: POSTGRESQL
     generate-ddl: true
@@ -10,6 +10,6 @@ spring:
 
 flyway:
   url: jdbc:postgresql://ec2-54-196-111-158.compute-1.amazonaws.com:5432/
-  schemas: d9dogrindm9d4a
-  user: onpkacraszqseu
-  password: 6dbb2b04209b92deec60c3a08568cb77ca06e800a817f10f36005c060fb943e8
+  schemas: d6fl6m25dog74r
+  user: welfyhopdxemil
+  password: ac3262d46d8952ffe55460d343c85bbd7f33ccf539760d27927875e8f8a3d4a6
