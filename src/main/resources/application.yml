@@ -1,28 +1,15 @@
-#spring:
- # datasource:
-    #username: postgres
-    #password: root
-    #url: jdbc:postgresql://localhost:5432/chaveiro-api
-  #username: onpkacraszqseu
-  #password: 6dbb2b04209b92deec60c3a08568cb77ca06e800a817f10f36005c060fb943e8
-  #uri: postgres://onpkacraszqseu:6dbb2b04209b92deec60c3a08568cb77ca06e800a817f10f36005c060fb943e8@ec2-54-196-111-158.compute-1.amazonaws.com:5432/d9dogrindm9d4a
 spring:
   datasource:
-    url: ${JDBC_DATABASE_URL}
-    username: ${JDBC_DATABASE_USERNAME}
-    password: ${JDBC_DATABASE_PASSWORD}
-
+    username: onpkacraszqseu
+    password: 6dbb2b04209b92deec60c3a08568cb77ca06e800a817f10f36005c060fb943e8
+    url: jdbc:postgresql://ec2-54-196-111-158.compute-1.amazonaws.com:5432/d9dogrindm9d4a
   jpa:
     database: POSTGRESQL
     generate-ddl: true
 
 
 flyway:
-  #url: jdbc:postgresql://localhost:5432/
-  #schemas: customer-api
-  #user: postgres
-  #password: 123
-  uri: postgres://onpkacraszqseu:6dbb2b04209b92deec60c3a08568cb77ca06e800a817f10f36005c060fb943e8@ec2-54-196-111-158.compute-1.amazonaws.com:5432/d9dogrindm9d4a
+  url: jdbc:postgresql://ec2-54-196-111-158.compute-1.amazonaws.com:5432/
+  schemas: d9dogrindm9d4a
   user: onpkacraszqseu
   password: 6dbb2b04209b92deec60c3a08568cb77ca06e800a817f10f36005c060fb943e8
-  schemas: d9dogrindm9d4a
